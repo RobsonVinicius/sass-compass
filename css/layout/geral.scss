@@ -5,7 +5,10 @@ body {
 
 .container {
   width: 940px;
-  margin: 0 auto;
+  margin: 0 auto;  
+  @media (max-width: 980px) {
+    width: 90%;
+  }
 }
 
 .titulo-secao {

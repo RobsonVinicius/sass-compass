@@ -6,6 +6,10 @@
   color: white;
   height: 330px;
   padding-top: 10em;
+  @media (max-width: $ponto-de-quebra) {
+    font-size: 14px;
+		height: 250px;
+  }
 }
 
 .destaque p {
@@ -31,6 +35,11 @@
   font-size: 1.2em;
   @include borda-arredondada(50px);
   @extend %sombra-padrao; 
-
   font-weight: bold;
 }
+
+.post-destaque,	.posts-antigos {
+  @extend %width-auto;
+}
+
+
