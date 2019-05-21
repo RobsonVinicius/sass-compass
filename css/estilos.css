@@ -9,7 +9,7 @@
   box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
 }
 
-.post-destaque, .posts-antigos, .menu-principal li, .menu-principal {
+form, .post-destaque, .posts-antigos, .menu-principal li, .menu-principal {
   width: auto;
 }
 
