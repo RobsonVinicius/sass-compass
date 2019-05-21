@@ -63,7 +63,7 @@
   width: 210px;
   height: 38px;
   font-size: 1.2em;
-  @include borda-arredondada();
+  @include border-radius($raio);
   @include box-shadow(rgba(black, 0.5)1px 3px 3px);
   margin-left: 2em;
 }
@@ -79,5 +79,5 @@
 }
 
 .icone-x {
-  background-position: -33px -5px;
+  background-position: -33.9px -5px;
 }

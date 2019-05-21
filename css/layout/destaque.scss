@@ -33,7 +33,7 @@
   border: 0;
   padding: .6em;
   font-size: 1.2em;
-  @include borda-arredondada(50px);
+  @include border-radius(50px);
   @include box-shadow(rgba(black, 0.5)1px 3px 3px);
   font-weight: bold;
 }

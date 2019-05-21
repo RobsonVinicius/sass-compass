@@ -541,10 +541,8 @@ header .container {
   border: 0;
   padding: .6em;
   font-size: 1.2em;
-  -webkit-border-radius: 50px;
   -moz-border-radius: 50px;
-  -o-border-radius: 50px;
-  -ms-border-radius: 50px;
+  -webkit-border-radius: 50px;
   border-radius: 50px;
   -moz-box-shadow: rgba(0, 0, 0, 0.5) 1px 3px 3px;
   -webkit-box-shadow: rgba(0, 0, 0, 0.5) 1px 3px 3px;
@@ -665,10 +663,8 @@ header .container {
   width: 210px;
   height: 38px;
   font-size: 1.2em;
-  -webkit-border-radius: 0.3em;
   -moz-border-radius: 0.3em;
-  -o-border-radius: 0.3em;
-  -ms-border-radius: 0.3em;
+  -webkit-border-radius: 0.3em;
   border-radius: 0.3em;
   -moz-box-shadow: rgba(0, 0, 0, 0.5) 1px 3px 3px;
   -webkit-box-shadow: rgba(0, 0, 0, 0.5) 1px 3px 3px;
@@ -687,7 +683,7 @@ header .container {
 }
 
 .icone-x {
-  background-position: -33px -5px;
+  background-position: -33.9px -5px;
 }
 
 /** Blog **/
@@ -753,10 +749,8 @@ textarea {
   width: 100%;
   margin-bottom: .8em;
   padding: 4px 8px;
-  -webkit-border-radius: 0.3em;
   -moz-border-radius: 0.3em;
-  -o-border-radius: 0.3em;
-  -ms-border-radius: 0.3em;
+  -webkit-border-radius: 0.3em;
   border-radius: 0.3em;
   border: 2px solid #ccc;
 }
@@ -769,10 +763,8 @@ textarea {
   width: 210px;
   height: 38px;
   font-size: 1.2em;
-  -webkit-border-radius: 0.3em;
   -moz-border-radius: 0.3em;
-  -o-border-radius: 0.3em;
-  -ms-border-radius: 0.3em;
+  -webkit-border-radius: 0.3em;
   border-radius: 0.3em;
   -moz-box-shadow: rgba(0, 0, 0, 0.5) 1px 3px 3px;
   -webkit-box-shadow: rgba(0, 0, 0, 0.5) 1px 3px 3px;
