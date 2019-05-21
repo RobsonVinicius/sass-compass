@@ -28,5 +28,5 @@ textarea {
   height: 38px;
   font-size: 1.2em;
   @include borda-arredondada();
-  @extend %sombra-padrao;
+  @include box-shadow(rgba(black, 0.5)1px 3px 3px);
 }
