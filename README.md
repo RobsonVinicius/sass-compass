@@ -4,7 +4,7 @@
 
 • Editor de código: VS Code
 
-• Linguagem: Sass 
+• Linguagem: Sass v3.4.25
 
-• Framework: Compass (Utilizado somente na Versão v1.0.1, somente para fins didáticos, pois foi descontinuado)
+• Framework: Compass 1.0.3 (Utilizado somente na Versão v1.0.1 do projeto, apenas para fins didáticos, pois foi descontinuado)
 
