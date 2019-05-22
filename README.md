@@ -1,10 +1,11 @@
-# sass-compass
+# Sass e Compass
 
-### Ferramentas utilizadas: 
+
 
 • Editor de código: VS Code
 
-• Linguagem: Sass 
+• Pré-processador: Sass v3.4.25
 
-• Framework: Compass
+• Framework: Compass 1.0.3<br>
+&nbsp;&nbsp;  (Utilizado somente na Versão v1.0.1 do projeto, apenas para fins didáticos, pois foi descontinuado)
 
