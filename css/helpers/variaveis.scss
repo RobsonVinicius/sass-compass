@@ -7,5 +7,9 @@ $ponto-de-quebra: 980px;
 
 $tamanho-fonte-padrao: 16px;
 
+@function multiplica-fonte-padrao($multiplicador) {
+  @return $multiplicador * $tamanho-fonte-padrao
+}
+
 $mq-mobile: "(max-width: 980px)";
 
