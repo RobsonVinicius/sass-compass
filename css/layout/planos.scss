@@ -9,7 +9,7 @@
 
 .plano {
   background: white;
-  width: 18em;
+  width: 18 * $tamanho-fonte-padrao;
   display: inline-block;
   margin: 1em 0 0 1.4em;
   padding-bottom: 2em;
@@ -63,15 +63,21 @@
   width: 210px;
   height: 38px;
   font-size: 1.2em;
-  @include border-radius($raio);
-  @include box-shadow(rgba(black, 0.5)1px 3px 3px);
+  @include borda-arredondada();
+  @extend %sombra-padrao; 
   margin-left: 2em;
 }
 
-@include all-sprite-sprites;
-.sprite-icone-ok, .sprite-icone-x {
+.icone-check, .icone-x {
+  background: url(../imagens/sprite.png) no-repeat;
   width: 18px;
   height: 18px;
 }
 
+.icone-check {
+  background-position: -5px -5px;
+}
 
+.icone-x {
+  background-position: -33px -5px;
+}
