@@ -1,3 +1,8 @@
+.sprite-sprite, .sprite-icone-ok, .sprite-icone-x {
+  background-image: url('../imagens/sprite-s009104be30.png');
+  background-repeat: no-repeat;
+}
+
 .plataformas li, .social li a {
   text-indent: -9999px;
   overflow: hidden;
@@ -672,18 +677,17 @@ header .container {
   margin-left: 2em;
 }
 
-.icone-check, .icone-x {
-  background: url(../imagens/sprite.png) no-repeat;
+.sprite-icone-ok {
+  background-position: 0 0;
+}
+
+.sprite-icone-x {
+  background-position: 0 -21px;
+}
+
+.sprite-icone-ok, .sprite-icone-x {
   width: 18px;
   height: 18px;
-}
-
-.icone-check {
-  background-position: -5px -5px;
-}
-
-.icone-x {
-  background-position: -33.9px -5px;
 }
 
 /** Blog **/
